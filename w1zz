@@ -1,0 +1,25 @@
+# Aim Trainer (Pygame)
+
+A simple local aim trainer built with Python + Pygame. Train your mouse aim with random targets, tracking mode, and session stats. This is strictly a standalone training tool — not a cheat for multiplayer games.
+
+## Features
+- Random target spawns with adjustable size and time limit
+- Tracking mode (moving target)
+- Hit/miss stats and accuracy
+- Session timer and best accuracy saved locally
+
+## Requirements
+- Python 3.8+
+- pip
+
+## Install
+```bash
+git clone <this-repo-url>
+cd aim-trainer
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+pip install -r requirements.txt
